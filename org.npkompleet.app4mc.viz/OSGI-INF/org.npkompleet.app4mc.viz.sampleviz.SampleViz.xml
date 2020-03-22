@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="org.npkompleet.app4mc.viz.SampleViz">
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="org.npkompleet.app4mc.viz.sampleviz.SampleViz">
    <property name="id" value="SampleViz"/>
    <property name="name" value="SWModel Visualization"/>
    <property name="description" value="Some other SWModel visualization"/>
    <service>
       <provide interface="org.eclipse.app4mc.visualization.ui.registry.Visualization"/>
    </service>
-   <implementation class="org.npkompleet.app4mc.viz.SampleViz"/>
+   <implementation class="org.npkompleet.app4mc.viz.sampleviz.SampleViz"/>
 </scr:component>
